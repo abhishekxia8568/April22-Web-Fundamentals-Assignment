@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h3>Registration Form</h3>
+    <form>
+      <div>
+        <label>Name:</label>
+        <input type="text" placeholder="First" size="20" required />
+        <input type="text" placeholder="Last" size="20" required /><br /><br />
+        <label>Father's Name:</label>
+        <input type="text" placeholder="First" size="20" required />
+        <input type="text" placeholder="Middle" size="20" required />
+        <input type="text" placeholder="Last" size="20" required />
+      </div>
+      <br />
+
+      <div>
+        <label>Email id:</label>
+        <input type="email" size="30" />
+      </div>
+      <br />
+
+      <div>
+        <label>Phone:</label>
+        <input type="number" maxlength="10" minlength="10" />
+      </div>
+      <br />
+
+      <div>
+        <label>Gender:</label>
+        <label>Male</label>
+        <input type="radio" value="Male" name="Gender" />
+        <label>Female</label>
+        <input type="radio" value="Female" name="Gender" />
+      </div>
+      <br />
+
+      <div>
+        <label>Programming Language Known:</label>
+        <input type="text" list="language" />
+        <datalist id="language">
+          <option>c</option>
+          <option>c++</option>
+          <option>Python</option>
+          <option>Javascript</option>
+          <option>Java</option>
+        </datalist>
+      </div>
+      <br />
+
+      <div>
+        <label>Name of college:</label>
+        <input type="text" size="50" /><br /><br />
+        <label>Date of Passing:</label>
+        <input type="date" />
+      </div>
+      <br />
+
+      <div>
+        <label>Address:</label><br>
+        <textarea rows="5" cols="50" placeholder="Address"></textarea
+        ><br /><br />
+        <label>City:</label>
+        <input type="text" />
+        <label>District:</label>
+        <input type="text" />
+        <label>State:</label>
+        <input type="text" list="state">
+        <datalist id="state">
+          <option>Andhra Pradesh (Hyderabad)</option>
+          <option>Arunachal Pradesh</option>
+          <option>Assam</option>
+          <option>Bihar</option>
+          <option>Chhattishgarh</option>
+          <option>Goa</option>
+          <option>Gujarat</option>
+          <option>Haryana</option>
+          <option>Himachal Pradesh</option>
+          <option>Jammu & Kashmir</option>
+          <option>Jharkhand</option>
+          <option>Karnataka</option>
+          <option>Kerala</option>
+          <option>Madhya Pradesh</option>
+          <option>Maharashtra</option>
+          <option>Manipur</option>
+          <option>Meghalaya</option>
+          <option>Mizoram</option>
+          <option>Nagaland</option>
+          <option>Odisha</option>
+          <option>Punjab</option>
+          <option>Rajasthan</option>
+          <option>Sikkim</option>
+          <option>Tamil Nadu</option>
+          <option>Telangana</option>
+          <option>Tripura</option>
+          <option>Uttar Pradesh</option>
+          <option>Uttarakhand</option>
+          <option>West Bengal</option>
+        </detalist>
+        <label>PinCode:</label>
+        <input type="number" maxlength="6" minlength="6"/>
+      </div>
+      <br />
+
+      <div>
+        <label>Strengths and Achievements:</label><br>
+        <textarea rows="10" cols="80" placeholder="comment...."></textarea>
+      </div>
+      <br />
+
+      <div>
+        <input type="button" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
