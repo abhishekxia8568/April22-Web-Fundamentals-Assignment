@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iframe tab</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        display: flex;
+      }
+      .menubar {
+        flex: 1;
+        border-right: 2px double black;
+      }
+      #iframe {
+        flex: 5;
+      }
+      .menubar section {
+        background-color: aqua;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: x-large;
+        padding: 10px;
+      }
+      iframe {
+        width: 100%;
+        height: 100vh;
+        border: none;
+        padding: 10px;
+      }
+      #heading {
+        background-color: black;
+        color: bisque;
+        font-size: xx-large;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <section class="menubar">
+        <section id="heading">Menu Bar</section>
+        <section>
+          <a href="mobile.html" target="rightpanel">Mobile</a>
+        </section>
+        <section>
+          <a href="tv.html" target="rightpanel">TV</a>
+        </section>
+        <section>
+          <a href="laptop.html" target="rightpanel">Laptops</a>
+        </section>
+        <section>
+          <a href="mens.html" target="rightpanel">Men's Clothing</a>
+        </section>
+      </section>
+      <section id="iframe">
+        <iframe name="rightpanel"></iframe>
+      </section>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+}
+/* nav bar */
+
+nav{
+position: fixed;
+top: 0%;
+background-color: rgb(198, 248, 232);
+width: 100%;
+/* box-shadow: 0,0,5,black; */
+
+}
+nav ul {
+    list-style-type: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    margin-top: 0;
+
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 25px;
+    color: rgb(143, 93, 190);
+}
+
+/* landing page */
+.container{
+    width: 100%;
+    
+}
+.landingpage{
+ 
+    background-color: #e2e2e2;
+    padding: 11%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    
+}
+.landingpage .image img{
+    padding-left: 15%;
+}
+.landingpage .content {
+    font-family: "Lato", sans-serif;
+    padding: 11% 0;
+}
+.landingpage .content .title{
+    font-size: 37px;
+}
+.landingpage .content .title span{
+    font-weight: 600;
+}
+.landingpage .content .desc{
+    font-size: 25px;
+}
+ button{
+    padding: 10px 25px;
+    background-color: rgb(164, 214, 197);
+    color:rgb(143, 93, 190) ;
+    font-weight: 700;
+    border-radius: 30%;
+    border: none;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+
+/* about section */
+.about {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.about .image img{
+    width: 100%;
+    margin-top: 100px;
+}
+.about .content {
+    font-family: "Lato", sans-serif;
+    padding: 20% 13%;
+  }
+  
+  .about .content .title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .about .content .desc {
+    font-size: 19px;
+  }
+
+  /* skill section */
+  .skill{
+      width: 100%;
+      background-color:#e2e2e2;
+        padding: 30px 0;
+     }
+  
+     .skill .box{
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+        background-color:#e2e2e2;
+        padding: 30px 0;
+        grid-column-gap: 20px;
+        margin: 0px 12%
+     }
+      
+
+  
+  .skill .tab {
+      color: black;
+      border: 2px solid  #e2e2e2;
+      background-color: white;
+      padding-left: 5%;
+      
+  }
+  .skill .title{
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      font-size: 25px;
+      font-weight: 600;
+  }
+.skill .box .tab .fa-brands{
+    font-size: 20px;
+    padding-right: 4%;
+}
+
+/* contact section */
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-top: 5%;
+}
+.contact .image img{
+
+}
+.contact .form{
+    padding: 18% 20%;
+}
+.contact .form .title{
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+}
+.contact .form .frm{
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+.contact .form .frm .input{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+    margin-top: 4% ;
+    background-color: #e2e2e2;
+    padding: 5%;
+}
+footer .text{
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+footer .logo{
+    font-size: 20px;
+    text-decoration: none;
+}
+footer .disclaimer{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
